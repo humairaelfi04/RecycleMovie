@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/gambar"
+        android:scaleType="centerCrop"
+        android:src="@drawable/apple"
+        />
+
+    <TextView
+        android:id="@+id/nama_buah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="16sp"
+        android:text="Nama Buah"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        />
+</RelativeLayout>
